@@ -2,6 +2,5 @@ version: "3.3"
 services:
  django:
   build: .
-  container_name: "oleg"
   ports:
    - "8000:8000"
